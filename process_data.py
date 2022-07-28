@@ -7,6 +7,22 @@ import pandas as pd
 
 
 def proc_data(filename):
+    """
+    This function is the processing routine that gathers data from a file and returns it
+    so that this can be run using dask.
+
+    Parameters
+    ----------
+    filename : str
+        Filename to process
+
+    Returns
+    -------
+    array : list
+        Returns a list of values
+
+    """
+
     obj = act.io.armfiles.read_netcdf(filename)
     scan_mode = obj.attrs['scan_mode']
     scan_name = obj.attrs['scan_name']
@@ -21,10 +37,6 @@ def proc_data(filename):
     mask = obj['range']
     zh = zh.where(mask > 500, drop=False)
     obj['reflectivity'].values = zh.values
-
-    #idx = obj['sweep_end_ray_index'].values
-    #if 'ppi' in scan_name:
-    #    obj = obj.where(obj['time'] < obj['time'].values[int(idx[0])], drop=True)
 
     zh = obj['reflectivity']
 
@@ -64,9 +76,12 @@ def proc_data(filename):
 
 
 if __name__ == "__main__":
+    # Grab the files based on a date
     date = '20220604'
     files = glob.glob('/data/archive/hou/houcsapr2cfrS2.a1/*' + date + '*')
     files.sort()
+
+    # Set up the dask processing
     task = []
     for f in files:
         task.append(dask.delayed(proc_data)(f))
@@ -74,6 +89,7 @@ if __name__ == "__main__":
         #print(result)
     results = dask.compute(*task)
 
+    # Convert to a dataframe with column names and write to csv
     names = ['time', 'scan_mode', 'scan_name', 'template_name', 'azimuth_min', 'azimith_max', 'elevation_min', 'elevation_max',
              'cell_azimuth', 'cell_range', 'cell_zh']
     df = pd.DataFrame(results, columns=names)

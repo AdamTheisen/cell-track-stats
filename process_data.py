@@ -23,12 +23,14 @@ def proc_data(filename):
 
     """
 
+    # Read in the object using ACT and get some initial values
     obj = act.io.armfiles.read_netcdf(filename)
     scan_mode = obj.attrs['scan_mode']
     scan_name = obj.attrs['scan_name']
     template_name = obj.attrs['template_name']
-
     time = obj['time'].values
+
+    # Perform some initial filtering on the data to try and smooth out ground clutter
     zh = obj['reflectivity']
     mask = obj['differential_reflectivity'].rolling(time=5).mean()
     zh = zh.where(mask <= 4.5, drop=False)
@@ -38,8 +40,8 @@ def proc_data(filename):
     zh = zh.where(mask > 500, drop=False)
     obj['reflectivity'].values = zh.values
 
+    # After filtering get some more data
     zh = obj['reflectivity']
-
     az = obj['azimuth'].values
     rng = obj['range'].values
     az_min = str(obj['azimuth'].min().values)
@@ -49,6 +51,7 @@ def proc_data(filename):
     el_max = str(obj['elevation'].max().values)
 
     try:
+        # Find the location of the maximium reflectivity
         loc_max_zh = zh.argmax(dim=('time', 'range'))
         loc_max_zh_x = loc_max_zh['time'].values
         loc_max_zh_y = loc_max_zh['range'].values
@@ -57,6 +60,7 @@ def proc_data(filename):
             loc_max_zh_x = loc_max_zh_x[0]
         if loc_max_zh_y.size > 1:
             loc_max_zh_y = loc_max_zh_y[0]
+        # Plot data out if it's a cell-tracked scans
         if 'cell' in template_name:
             display = act.plotting.TimeSeriesDisplay(obj)
             title = str(time[0]) + ' ' + scan_name

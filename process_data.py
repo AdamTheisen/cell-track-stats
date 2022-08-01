@@ -81,7 +81,7 @@ def proc_data(filename):
 
 if __name__ == "__main__":
     # Grab the files based on a date
-    date = '20220604'
+    date = '20220601'
     files = glob.glob('/data/archive/hou/houcsapr2cfrS2.a1/*' + date + '*')
     files.sort()
 
@@ -97,5 +97,5 @@ if __name__ == "__main__":
     names = ['time', 'scan_mode', 'scan_name', 'template_name', 'azimuth_min', 'azimith_max', 'elevation_min', 'elevation_max',
              'cell_azimuth', 'cell_range', 'cell_zh']
     df = pd.DataFrame(results, columns=names)
-    output = '/home/theisen/www/cell_tracking/csv/houcsapr.' + date + '.csv' 
+    output = './data/houcsapr.' + date + '.csv' 
     df.to_csv(output)

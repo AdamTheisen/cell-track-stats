@@ -81,21 +81,27 @@ def proc_data(filename):
 
 if __name__ == "__main__":
     # Grab the files based on a date
-    date = '20220601'
-    files = glob.glob('/data/archive/hou/houcsapr2cfrS2.a1/*' + date + '*')
-    files.sort()
+    date = '20220605'
+    dates = act.utils.dates_between('20220606', '20220630')
 
-    # Set up the dask processing
-    task = []
-    for f in files:
-        task.append(dask.delayed(proc_data)(f))
-        #result = proc_data(f)
-        #print(result)
-    results = dask.compute(*task)
+    for d in dates:
+        d = d.strftime('%Y%m%d')
+        print(d)
+        files = glob.glob('/data/archive/hou/houcsapr2cfrS2.a1/*' + d + '*')
+        files.sort()
 
-    # Convert to a dataframe with column names and write to csv
-    names = ['time', 'scan_mode', 'scan_name', 'template_name', 'azimuth_min', 'azimith_max', 'elevation_min', 'elevation_max',
-             'cell_azimuth', 'cell_range', 'cell_zh']
-    df = pd.DataFrame(results, columns=names)
-    output = './data/houcsapr.' + date + '.csv' 
-    df.to_csv(output)
+        # Set up the dask processing
+        task = []
+        for f in files:
+            task.append(dask.delayed(proc_data)(f))
+            #result = proc_data(f)
+            #print(result)
+        results = dask.compute(*task)
+
+        # Convert to a dataframe with column names and write to csv
+        names = ['time', 'scan_mode', 'scan_name', 'template_name',
+                 'azimuth_min', 'azimith_max', 'elevation_min', 'elevation_max',
+                 'cell_azimuth', 'cell_range', 'cell_zh']
+        df = pd.DataFrame(results, columns=names)
+        output = './data/houcsapr.' + d + '.csv' 
+        df.to_csv(output)

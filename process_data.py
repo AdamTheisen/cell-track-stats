@@ -82,7 +82,7 @@ def proc_data(filename):
 if __name__ == "__main__":
     # Grab the files based on a date
     date = '20220605'
-    dates = act.utils.dates_between('20220606', '20220630')
+    dates = act.utils.dates_between('20220801', '20220804')
 
     for d in dates:
         d = d.strftime('%Y%m%d')

@@ -43,13 +43,29 @@ def proc_data(filename):
     # After filtering get some more data
     zh = obj['reflectivity']
     az = obj['azimuth'].values
+    el = obj['elevation'].values
     rng = obj['range'].values
+
+    # Calculating height for some statistics later on
+    h = [(rng/1000.) * np.sin(np.deg2rad(e)) + ((rng/1000.) ** 2.) / (2. * 6370.) for e in el]
+
+    # Get statistics and ranges 
     az_min = str(obj['azimuth'].min().values)
     az_max = str(obj['azimuth'].max().values)
 
     el_min = str(obj['elevation'].min().values)
     el_max = str(obj['elevation'].max().values)
 
+    rng_min = str(obj['range'].min().values)
+    rng_max = str(obj['range'].max().values)
+
+    ngates_gt_0 = int(zh.where(zh > 0.).count())
+    ngates_gt_10 = int(zh.where(zh > 10.).count())
+    ngates_gt_30 = int(zh.where(zh > 30.).count())
+    ngates_gt_50 = int(zh.where(zh > 50.).count())
+    ngates_gt_10_5km = zh.where((zh >= 10.) & (np.array(h) > 5.)).count()
+    ngates_gt_40_5km = zh.where((zh >= 40.) & (np.array(h) > 5.)).count()
+    ngates = zh.count()
     try:
         # Find the location of the maximium reflectivity
         loc_max_zh = zh.argmax(dim=('time', 'range'))
@@ -69,20 +85,25 @@ def proc_data(filename):
             writename = '/home/theisen/www/cell_tracking/' + filename.split('/')[-1] + '.png'
             plt.savefig(writename)
             plt.close('all')
-        return [time[0], scan_mode, scan_name, template_name, az_min, az_max, el_min, el_max, az[loc_max_zh_x], rng[loc_max_zh_y], max_zh]
+        return [time[0], scan_mode, scan_name, template_name, az_min, az_max, el_min, el_max,
+                rng_min, rng_max, az[loc_max_zh_x], rng[loc_max_zh_y], max_zh,
+                ngates_gt_0, ngates_gt_10, ngates_gt_30, ngates_gt_50,
+                ngates_gt_10_5km, ngates_gt_40_5km, ngates]
     except:
         loc_max_zh = np.nan
         loc_max_zh_x = np.nan
         loc_max_zh_y = np.nan
         max_zh = np.nan
-        return [time[0], scan_mode, scan_name, template_name, az_min, az_max, el_min, el_max, np.nan, np.nan, max_zh]
+        return [time[0], scan_mode, scan_name, template_name, az_min, az_max, el_min, el_max, 
+                rng_min, rng_max, np.nan, np.nan, max_zh,
+                ngates_gt_0, ngates_gt_10, ngates_gt_30, ngates_gt_50,
+                ngates_gt_10_5km, ngates_gt_40_5km, ngates]
 
 
 
 if __name__ == "__main__":
     # Grab the files based on a date
-    date = '20220605'
-    dates = act.utils.dates_between('20220801', '20220804')
+    dates = act.utils.dates_between('20220730', '20220808')
 
     for d in dates:
         d = d.strftime('%Y%m%d')
@@ -100,8 +121,10 @@ if __name__ == "__main__":
 
         # Convert to a dataframe with column names and write to csv
         names = ['time', 'scan_mode', 'scan_name', 'template_name',
-                 'azimuth_min', 'azimith_max', 'elevation_min', 'elevation_max',
-                 'cell_azimuth', 'cell_range', 'cell_zh']
+                 'azimuth_min', 'azimuth_max', 'elevation_min', 'elevation_max',
+                 'range_min', 'range_max', 'cell_azimuth', 'cell_range', 'cell_zh',
+                 'ngates_gt_0', 'ngates_gt_10', 'ngates_gt_30', 'ngates_gt_50',
+                 'ngates_gt_10_5km', 'ngates_gt40_5km', 'ngates']
         df = pd.DataFrame(results, columns=names)
         output = './data/houcsapr.' + d + '.csv' 
         df.to_csv(output)

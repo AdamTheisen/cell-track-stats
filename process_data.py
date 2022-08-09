@@ -63,9 +63,9 @@ def proc_data(filename):
     ngates_gt_10 = int(zh.where(zh > 10.).count())
     ngates_gt_30 = int(zh.where(zh > 30.).count())
     ngates_gt_50 = int(zh.where(zh > 50.).count())
-    ngates_gt_10_5km = zh.where((zh >= 10.) & (np.array(h) > 5.)).count()
-    ngates_gt_40_5km = zh.where((zh >= 40.) & (np.array(h) > 5.)).count()
-    ngates = zh.count()
+    ngates_gt_10_5km = int(zh.where((zh >= 10.) & (np.array(h) > 5.)).count())
+    ngates_gt_40_5km = int(zh.where((zh >= 40.) & (np.array(h) > 5.)).count())
+    ngates = int(zh.count())
     try:
         # Find the location of the maximium reflectivity
         loc_max_zh = zh.argmax(dim=('time', 'range'))
@@ -103,7 +103,7 @@ def proc_data(filename):
 
 if __name__ == "__main__":
     # Grab the files based on a date
-    dates = act.utils.dates_between('20220730', '20220808')
+    dates = act.utils.dates_between('20220420', '20220420')
 
     for d in dates:
         d = d.strftime('%Y%m%d')

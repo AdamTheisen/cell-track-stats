@@ -4,6 +4,7 @@ import numpy as np
 import act
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
 
 
 def proc_data(filename):
@@ -82,7 +83,12 @@ def proc_data(filename):
             title = str(time[0]) + ' ' + scan_name
             display.plot('reflectivity', set_title=title)
             display.axes[0].plot(time[loc_max_zh_x], rng[loc_max_zh_y], 'xr', markersize=10)
-            writename = '/home/theisen/www/cell_tracking/' + filename.split('/')[-1] + '.png'
+
+            date = filename.split('.')[-3]
+            idir = '/home/theisen/www/cell_tracking/' + date
+            if not os.path.exists(idir):
+                os.makedirs(idir)
+            writename = idir + '/' + filename.split('/')[-1] + '.png'
             plt.savefig(writename)
             plt.close('all')
         return [time[0], scan_mode, scan_name, template_name, az_min, az_max, el_min, el_max,
@@ -103,7 +109,7 @@ def proc_data(filename):
 
 if __name__ == "__main__":
     # Grab the files based on a date
-    dates = act.utils.dates_between('202722', '20220726')
+    dates = act.utils.dates_between('20220722', '20220726')
 
     for d in dates:
         d = d.strftime('%Y%m%d')

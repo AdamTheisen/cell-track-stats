@@ -1,837 +1,210 @@
 ,time,scan_mode,scan_name,template_name,azimuth_min,azimuth_max,elevation_min,elevation_max,range_min,range_max,cell_azimuth,cell_range,cell_zh,ngates_gt_0,ngates_gt_10,ngates_gt_30,ngates_gt_50,ngates_gt_10_5km,ngates_gt40_5km,ngates
-0,2022-06-09 15:10:19,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.55994,0.7800293,183.01025,0.0,109900.0,114.4940185546875,1500.0,13.907858,20,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(310)"
-1,2022-06-09 15:15:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,63.12195,0.7800293,178.75854,0.0,109900.0,63.0999755859375,5200.0,-3.7662773,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(8)"
-2,2022-06-09 15:15:54,ppi,ppi,hou-ppi-tracer,0.51086426,359.57428,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-3,2022-06-09 15:17:53,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.70337,90.09888,0.0,19900.0,320.55084228515625,4500.0,7.6975136,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(40)"
-4,2022-06-09 15:20:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.53796,0.7800293,183.02124,0.0,109900.0,204.4720458984375,900.0,27.910114,19,4,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(189)"
-5,2022-06-09 15:25:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,63.12195,0.7800293,178.7915,0.0,109900.0,63.1219482421875,800.0,0.0038280487,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(25)"
-6,2022-06-09 15:25:55,ppi,ppi,hou-ppi-tracer,0.5548096,359.57428,0.36254883,3.1311035,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-7,2022-06-09 15:27:54,vpt,vpt,hou-vpt-tracer,0.54107666,359.5166,89.69238,90.08789,0.0,19900.0,32.5140380859375,4500.0,2.5862389,22,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(63)"
-8,2022-06-09 15:30:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.64783,0.7800293,183.02124,0.0,109900.0,84.4793701171875,800.0,5.189806,18,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(259)"
-9,2022-06-09 15:35:01,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,110.286255,0.7910156,178.7915,0.0,109900.0,63.0999755859375,1200.0,-1.5795116,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(39)"
-10,2022-06-09 15:35:53,ppi,ppi,hou-ppi-tracer,0.5218506,359.57428,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-11,2022-06-09 15:37:52,vpt,vpt,hou-vpt-tracer,0.58776855,359.5633,89.72534,90.076904,0.0,19900.0,335.58013916015625,1300.0,6.1157303,41,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(166)"
-12,2022-06-09 15:40:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.64783,0.7800293,183.01025,0.0,109900.0,144.4866943359375,36200.0,12.840729,30,3,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(351)"
-13,2022-06-09 15:45:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,1800.0,6.6926804,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(76)"
-14,2022-06-09 15:45:55,ppi,ppi,hou-ppi-tracer,0.5548096,359.58527,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-15,2022-06-09 15:47:54,vpt,vpt,hou-vpt-tracer,0.5657959,359.54132,89.69238,90.076904,0.0,19900.0,95.5755615234375,1500.0,8.301674,25,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(81)"
-16,2022-06-09 15:50:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,204.4720458984375,700.0,21.873276,42,3,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(578)"
-17,2022-06-09 15:55:04,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7800293,178.78052,0.0,109900.0,63.0999755859375,3100.0,2.2783337,6,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(115)"
-18,2022-06-09 15:55:56,ppi,ppi,hou-ppi-tracer,0.519104,359.56055,0.37353516,3.1420898,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-19,2022-06-09 15:57:54,vpt,vpt,hou-vpt-tracer,0.5328369,359.5523,89.747314,90.076904,0.0,19900.0,97.5750732421875,1600.0,4.004505,82,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(446)"
-20,2022-06-09 16:00:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,183.01025,0.0,109900.0,54.4866943359375,600.0,15.159508,26,3,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(481)"
-21,2022-06-09 16:05:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,4600.0,-0.96076584,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(19)"
-22,2022-06-09 16:05:52,ppi,ppi,hou-ppi-tracer,0.54107666,359.54132,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-23,2022-06-09 16:07:51,vpt,vpt,hou-vpt-tracer,0.54382324,359.5523,89.67041,90.076904,0.0,19900.0,150.5511474609375,800.0,12.267391,36,5,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(103)"
-24,2022-06-09 16:10:23,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,114.5159912109375,52600.0,35.72793,49,20,2,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(461)"
-25,2022-06-09 16:15:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,4400.0,1.1888676,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(24)"
-26,2022-06-09 16:15:58,ppi,ppi,hou-ppi-tracer,0.519104,359.54132,0.38452148,3.1750488,0.0,109900.0,116.5484619140625,53500.0,30.69059,5,5,1,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(5)"
-27,2022-06-09 16:17:56,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.67041,90.076904,0.0,19900.0,243.5394287109375,1900.0,4.4788723,80,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(605)"
-28,2022-06-09 16:20:18,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,114.5159912109375,54000.0,20.370264,152,8,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1468)"
-29,2022-06-09 16:25:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.75854,0.0,109900.0,63.0999755859375,1600.0,3.1840744,9,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(318)"
-30,2022-06-09 16:25:52,ppi,ppi,hou-ppi-tracer,0.519104,359.57428,0.38452148,3.1750488,0.0,109900.0,359.55230712890625,7500.0,3.6179924,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-31,2022-06-09 16:27:51,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,18.5504150390625,4400.0,3.8280373,21,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(265)"
-32,2022-06-09 16:30:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,84.5013427734375,1000.0,17.604565,27,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(426)"
-33,2022-06-09 16:34:48,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0780029296875,4100.0,0.74505043,3,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(49)"
-34,2022-06-09 16:35:40,ppi,ppi,hou-ppi-tracer,0.5218506,359.58527,0.38452148,3.1860352,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-35,2022-06-09 16:37:38,vpt,vpt,hou-vpt-tracer,0.5328369,359.5523,89.70337,90.076904,0.0,19900.0,359.55230712890625,1200.0,3.7128181,13,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(135)"
-36,2022-06-09 16:40:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,54.4866943359375,900.0,37.42094,23,5,1,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(359)"
-37,2022-06-09 16:45:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.067017,63.12195,0.7910156,178.7915,0.0,109900.0,63.0780029296875,5000.0,0.94916534,3,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(46)"
-38,2022-06-09 16:45:54,ppi,ppi,hou-ppi-tracer,0.54107666,359.5633,0.38452148,3.0651855,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-39,2022-06-09 16:47:53,vpt,vpt,hou-vpt-tracer,0.5218506,359.5523,89.714355,90.076904,0.0,19900.0,123.5247802734375,4500.0,2.478592,43,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(703)"
-40,2022-06-09 16:50:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,114.5159912109375,36800.0,21.474342,15,5,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(323)"
-41,2022-06-09 16:55:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.78052,0.0,109900.0,63.0999755859375,3500.0,-5.762271,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(12)"
-42,2022-06-09 16:55:54,ppi,ppi,hou-ppi-tracer,0.5218506,359.58527,0.38452148,3.1750488,0.0,109900.0,116.5704345703125,36800.0,29.293573,23,19,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(23)"
-43,2022-06-09 16:57:53,vpt,vpt,hou-vpt-tracer,0.5548096,359.57428,89.69238,90.076904,0.0,19900.0,190.5413818359375,4600.0,0.09547043,4,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(362)"
-44,2022-06-09 17:00:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.58191,0.7910156,182.99927,0.0,109900.0,114.4940185546875,37200.0,35.084724,108,66,8,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(337)"
-45,2022-06-09 17:05:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,900.0,-14.331252,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(2)"
-46,2022-06-09 17:05:54,ppi,ppi,hou-ppi-tracer,0.519104,359.57428,0.38452148,3.1311035,0.0,109900.0,117.5701904296875,37400.0,36.90255,40,37,13,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(40)"
-47,2022-06-09 17:07:53,vpt,vpt,hou-vpt-tracer,0.5767822,359.54132,89.69238,90.076904,0.0,19900.0,74.5257568359375,1900.0,22.879765,52,19,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(99)"
-48,2022-06-09 17:10:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,114.5159912109375,39000.0,25.179771,42,31,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(184)"
-49,2022-06-09 17:15:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.78052,0.0,109900.0,63.0999755859375,2100.0,-2.2624588,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(33)"
-50,2022-06-09 17:15:55,ppi,ppi,hou-ppi-tracer,0.5218506,359.58527,0.38452148,3.1750488,0.0,109900.0,119.5587158203125,37400.0,21.238815,4,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(4)"
-51,2022-06-09 17:17:54,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,334.54742431640625,1800.0,6.0251846,42,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(253)"
-52,2022-06-09 17:20:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,114.4940185546875,38900.0,28.205158,90,26,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(808)"
-53,2022-06-09 17:24:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.76953,0.0,109900.0,63.1219482421875,3200.0,9.166283,12,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(170)"
-54,2022-06-09 17:25:51,ppi,ppi,hou-ppi-tracer,0.54107666,359.53857,0.38452148,3.1091309,0.0,109900.0,116.5264892578125,38200.0,14.982843,6,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(6)"
-55,2022-06-09 17:27:50,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.69238,90.076904,0.0,19900.0,355.54229736328125,1400.0,11.910946,144,36,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(420)"
-56,2022-06-09 17:30:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,54.4866943359375,900.0,23.518745,26,13,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(262)"
-57,2022-06-09 17:35:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,4700.0,1.9372597,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(9)"
-58,2022-06-09 17:35:57,ppi,ppi,hou-ppi-tracer,0.5218506,359.54132,0.37353516,3.1091309,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-59,2022-06-09 17:37:56,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.70337,90.076904,0.0,19900.0,299.54498291015625,4400.0,2.6839676,8,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(181)"
-60,2022-06-09 17:40:19,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.60388,0.7800293,183.02124,0.0,109900.0,54.5086669921875,800.0,28.135853,35,5,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(625)"
-61,2022-06-09 17:45:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,900.0,27.458378,39,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(145)"
-62,2022-06-09 17:45:52,ppi,ppi,hou-ppi-tracer,0.51086426,359.53033,0.38452148,3.1420898,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-63,2022-06-09 17:47:50,vpt,vpt,hou-vpt-tracer,0.58776855,359.5523,89.76929,90.076904,0.0,19900.0,58.5516357421875,1500.0,-0.24036407,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(110)"
-64,2022-06-09 17:50:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,54.5086669921875,900.0,15.411457,18,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(333)"
-65,2022-06-09 17:55:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0780029296875,1500.0,3.4131489,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(32)"
-66,2022-06-09 17:55:57,ppi,ppi,hou-ppi-tracer,0.54382324,359.58527,0.38452148,3.1970215,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-67,2022-06-09 17:57:56,vpt,vpt,hou-vpt-tracer,0.5328369,359.50836,89.69238,90.076904,0.0,19900.0,268.53057861328125,600.0,24.862946,33,24,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(284)"
-68,2022-06-09 18:00:18,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,84.5013427734375,1400.0,9.42366,85,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(636)"
-69,2022-06-09 18:05:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.78052,0.0,109900.0,63.0999755859375,4300.0,6.9445076,6,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(49)"
-70,2022-06-09 18:05:54,ppi,ppi,hou-ppi-tracer,0.552063,359.53033,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-71,2022-06-09 18:07:52,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.78027,90.076904,0.0,19900.0,36.5130615234375,600.0,19.359098,73,33,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(230)"
-72,2022-06-09 18:10:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.61487,0.7800293,182.99927,0.0,109900.0,174.495849609375,3200.0,18.889187,32,3,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(648)"
-73,2022-06-09 18:15:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7800293,178.76953,0.0,109900.0,63.0999755859375,1300.0,12.3677025,2,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(46)"
-74,2022-06-09 18:15:55,ppi,ppi,hou-ppi-tracer,0.519104,359.5523,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-75,2022-06-09 18:18:07,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.98901,90.01099,0.0,19900.0,328.55987548828125,800.0,8.708633,45,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(124)"
-76,2022-06-09 18:20:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.475708,204.5929,0.7800293,182.99927,0.0,109900.0,174.495849609375,1100.0,15.311998,55,6,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(434)"
-77,2022-06-09 18:25:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,3100.0,3.0968456,5,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(170)"
-78,2022-06-09 18:25:54,ppi,ppi,hou-ppi-tracer,0.54382324,359.5633,0.38452148,3.1311035,0.0,109900.0,134.5660400390625,1600.0,-2.9849272,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-79,2022-06-09 18:27:53,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,130.5999755859375,4300.0,-0.28634262,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(100)"
-80,2022-06-09 18:30:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,54.4866943359375,1300.0,18.279753,93,3,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(720)"
-81,2022-06-09 18:35:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.76904297,178.78052,0.0,109900.0,63.0780029296875,4900.0,2.2468796,6,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(181)"
-82,2022-06-09 18:35:55,ppi,ppi,hou-ppi-tracer,0.5218506,359.54132,0.38452148,3.1311035,0.0,109900.0,126.6009521484375,27600.0,16.859617,6,4,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(6)"
-83,2022-06-09 18:37:53,vpt,vpt,hou-vpt-tracer,0.54107666,359.5166,89.70337,90.076904,0.0,19900.0,176.5447998046875,800.0,19.553192,71,49,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(298)"
-84,2022-06-09 18:40:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.475708,204.61487,0.7800293,182.99927,0.0,109900.0,114.4940185546875,700.0,25.76625,104,8,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(880)"
-85,2022-06-09 18:44:48,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0780029296875,9200.0,13.327522,10,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(74)"
-86,2022-06-09 18:45:41,ppi,ppi,hou-ppi-tracer,0.552063,359.58527,0.38452148,3.1091309,0.0,109900.0,126.6009521484375,26600.0,31.527702,44,33,3,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(44)"
-87,2022-06-09 18:47:39,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.70337,90.076904,0.0,19900.0,317.54058837890625,800.0,-1.279644,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(71)"
-88,2022-06-09 18:50:23,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,114.5159912109375,35400.0,17.28644,96,14,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1148)"
-89,2022-06-09 18:55:04,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,63.12195,0.7800293,178.76953,0.0,109900.0,63.0999755859375,3500.0,4.120428,20,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(131)"
-90,2022-06-09 18:55:56,ppi,ppi,hou-ppi-tracer,0.5218506,359.57428,0.38452148,3.1750488,0.0,109900.0,202.5274658203125,26200.0,23.97908,9,7,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(9)"
-91,2022-06-09 18:57:54,vpt,vpt,hou-vpt-tracer,0.5328369,359.50836,89.70337,90.076904,0.0,19900.0,287.56988525390625,600.0,8.641239,55,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(614)"
-92,2022-06-09 19:00:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,174.495849609375,2800.0,20.400349,47,8,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1234)"
-93,2022-06-09 19:05:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,3100.0,4.5457363,21,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(371)"
-94,2022-06-09 19:05:54,ppi,ppi,hou-ppi-tracer,0.5218506,359.59625,0.38452148,3.1091309,0.0,109900.0,112.5384521484375,34700.0,25.67672,30,24,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(30)"
-95,2022-06-09 19:08:20,vpt,vpt,hou-vpt-tracer,0.5548096,359.57428,89.70337,90.076904,0.0,19900.0,140.5755615234375,2000.0,-1.8948975,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(147)"
-96,2022-06-09 19:10:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,84.611206,0.7800293,182.99927,0.0,109900.0,84.4793701171875,1000.0,14.467115,35,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(758)"
-97,2022-06-09 19:20:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,54.5086669921875,600.0,21.673893,29,7,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(518)"
-98,2022-06-09 19:25:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,800.0,20.59261,10,4,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(149)"
-99,2022-06-09 19:25:55,ppi,ppi,hou-ppi-tracer,0.54107666,359.5633,0.38452148,3.1091309,0.0,109900.0,344.59991455078125,900.0,2.109106,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-100,2022-06-09 19:27:54,vpt,vpt,hou-vpt-tracer,0.5548096,359.57428,89.70337,90.076904,0.0,19900.0,12.5189208984375,4400.0,-1.2802315,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(145)"
-101,2022-06-09 19:30:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,84.5013427734375,3400.0,12.879795,100,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1435)"
-102,2022-06-09 19:35:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.75854,0.0,109900.0,63.0999755859375,800.0,22.872482,18,9,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(165)"
-103,2022-06-09 19:35:52,ppi,ppi,hou-ppi-tracer,0.519104,359.54132,0.38452148,3.1530762,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-104,2022-06-09 19:37:51,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.69238,90.076904,0.0,19900.0,220.5999755859375,800.0,27.25275,110,22,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(297)"
-105,2022-06-09 19:40:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,54.5086669921875,600.0,20.86385,31,9,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(793)"
-106,2022-06-09 19:45:07,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.80200195,178.76953,0.0,109900.0,63.0999755859375,2100.0,15.625149,7,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(92)"
-107,2022-06-09 19:45:59,ppi,ppi,hou-ppi-tracer,0.54107666,359.58527,0.38452148,3.1420898,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-108,2022-06-09 19:48:08,vpt,vpt,hou-vpt-tracer,0.5657959,359.54132,89.98901,90.01099,0.0,19900.0,170.5352783203125,600.0,25.270485,115,65,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(158)"
-109,2022-06-09 19:50:17,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,144.4866943359375,700.0,26.30158,18,5,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(318)"
-110,2022-06-09 19:54:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,1000.0,21.026615,6,3,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(59)"
-111,2022-06-09 19:55:51,ppi,ppi,hou-ppi-tracer,0.53009033,359.54956,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-112,2022-06-09 19:57:49,vpt,vpt,hou-vpt-tracer,0.54107666,359.5166,89.70337,90.076904,0.0,19900.0,72.5701904296875,1300.0,-1.098629,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(72)"
-113,2022-06-09 20:00:26,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.5929,0.7800293,182.99927,0.0,109900.0,174.4793701171875,700.0,19.082077,48,5,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(841)"
-114,2022-06-09 20:05:07,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0780029296875,2100.0,10.230049,18,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(297)"
-115,2022-06-09 20:05:59,ppi,ppi,hou-ppi-tracer,0.54107666,359.5633,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-116,2022-06-09 20:07:58,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.70337,90.076904,0.0,19900.0,31.5582275390625,2100.0,4.081295,84,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(565)"
-117,2022-06-09 20:10:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,54.5086669921875,2500.0,16.350876,89,7,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1064)"
-118,2022-06-09 20:14:57,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.76953,0.0,109900.0,63.0999755859375,1500.0,19.170414,11,6,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(74)"
-119,2022-06-09 20:15:49,ppi,ppi,hou-ppi-tracer,0.5328369,359.58527,0.38452148,3.1091309,0.0,109900.0,321.56158447265625,2400.0,1.9822779,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-120,2022-06-09 20:17:47,vpt,vpt,hou-vpt-tracer,0.552063,359.5166,89.69238,90.076904,0.0,19900.0,183.5760498046875,900.0,14.5804825,51,19,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(163)"
-121,2022-06-09 20:20:27,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,174.4793701171875,900.0,24.74123,85,13,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(693)"
-122,2022-06-09 20:25:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0999755859375,1000.0,14.7610855,19,4,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(1)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(152)"
-123,2022-06-09 20:26:00,ppi,ppi,hou-ppi-tracer,0.54107666,359.58527,0.38452148,3.1970215,0.0,109900.0,216.5350341796875,1800.0,2.1234446,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-124,2022-06-09 20:27:59,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.69238,90.076904,0.0,19900.0,242.5396728515625,1200.0,16.184097,125,69,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(841)"
-125,2022-06-09 20:30:15,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,174.495849609375,1000.0,26.347233,286,67,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1679)"
-126,2022-06-09 20:34:57,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.78052,0.0,109900.0,63.0999755859375,2700.0,8.577431,29,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(273)"
-127,2022-06-09 20:35:49,ppi,ppi,hou-ppi-tracer,0.5218506,359.5523,0.38452148,3.0871582,0.0,109900.0,200.5609130859375,1400.0,1.96385,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-128,2022-06-09 20:37:47,vpt,vpt,hou-vpt-tracer,0.5767822,359.5523,89.70337,90.076904,0.0,19900.0,104.5294189453125,1100.0,25.557247,76,42,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(268)"
-129,2022-06-09 20:40:27,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.60388,0.7800293,182.99927,0.0,109900.0,204.4720458984375,4600.0,26.417818,197,18,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(2040)"
-130,2022-06-09 20:45:07,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.75854,0.0,109900.0,63.0780029296875,2700.0,4.470381,60,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(462)"
-131,2022-06-09 20:45:59,ppi,ppi,hou-ppi-tracer,0.54107666,359.5633,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-132,2022-06-09 20:47:58,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.70337,90.076904,0.0,19900.0,177.5885009765625,1500.0,5.4333057,72,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(332)"
-133,2022-06-09 20:50:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,183.01025,0.0,109900.0,84.4793701171875,1700.0,22.529448,81,5,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(781)"
-134,2022-06-09 20:55:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7800293,178.80249,0.0,109900.0,63.0780029296875,2400.0,5.427202,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(127)"
-135,2022-06-09 20:55:52,ppi,ppi,hou-ppi-tracer,0.5218506,359.5523,0.38452148,3.1530762,0.0,109900.0,135.5438232421875,2200.0,-10.407041,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-136,2022-06-09 20:57:50,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.70337,90.076904,0.0,19900.0,69.5709228515625,4400.0,3.9784603,26,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(139)"
-137,2022-06-09 21:00:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.52698,0.7800293,182.99927,0.0,109900.0,174.495849609375,700.0,22.529888,55,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(356)"
-138,2022-06-09 21:05:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.76953,0.0,109900.0,63.0999755859375,1200.0,0.68083763,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(106)"
-139,2022-06-09 21:05:57,ppi,ppi,hou-ppi-tracer,0.5328369,359.5523,0.38452148,3.1311035,0.0,109900.0,291.56890869140625,2300.0,17.18917,1,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(3)"
-140,2022-06-09 21:07:56,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.64844,90.076904,0.0,19900.0,305.56549072265625,2900.0,2.1299477,21,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(189)"
-141,2022-06-09 21:10:19,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,174.4793701171875,1300.0,11.326775,27,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(145)"
-142,2022-06-09 21:14:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.7915,0.0,109900.0,63.0780029296875,900.0,14.909134,2,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(43)"
-143,2022-06-09 21:15:51,ppi,ppi,hou-ppi-tracer,0.5328369,359.58527,0.38452148,3.1091309,0.0,109900.0,351.58721923828125,2300.0,1.4025497,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(2)"
-144,2022-06-09 21:17:50,vpt,vpt,hou-vpt-tracer,0.5328369,359.50836,89.70337,90.076904,0.0,19900.0,174.5452880859375,1600.0,5.5937843,52,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(178)"
-145,2022-06-09 21:20:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,84.5013427734375,1100.0,9.299356,19,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(134)"
-146,2022-06-09 21:25:06,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0999755859375,4400.0,13.978928,1,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(8)"
-147,2022-06-09 21:25:58,ppi,ppi,hou-ppi-tracer,0.54107666,359.58527,0.38452148,3.1530762,0.0,109900.0,255.5914306640625,2100.0,-4.8922048,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-148,2022-06-09 21:27:56,vpt,vpt,hou-vpt-tracer,0.5657959,359.54132,89.6814,90.076904,0.0,19900.0,307.51007080078125,1500.0,-4.1657867,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(17)"
-149,2022-06-09 21:30:18,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,84.4793701171875,1700.0,16.467297,23,4,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(117)"
-150,2022-06-09 21:35:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.7915,0.0,109900.0,63.0999755859375,2300.0,-3.0502605,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(8)"
-151,2022-06-09 21:35:52,ppi,ppi,hou-ppi-tracer,0.5548096,359.58527,0.38452148,3.1311035,0.0,109900.0,281.53839111328125,21200.0,24.758507,3,3,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(3)"
-152,2022-06-09 21:37:51,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.69238,90.076904,0.0,19900.0,244.5501708984375,1400.0,0.4409256,11,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(50)"
-153,2022-06-09 21:40:23,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7910156,182.99927,0.0,109900.0,54.5086669921875,1700.0,15.716421,27,3,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(102)"
-154,2022-06-09 21:45:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.78052,0.0,109900.0,63.1219482421875,1200.0,1.0929623,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(16)"
-155,2022-06-09 21:45:57,ppi,ppi,hou-ppi-tracer,0.5218506,359.58527,0.38452148,3.1311035,0.0,109900.0,218.6004638671875,2200.0,-6.6526523,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-156,2022-06-09 21:47:55,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.6814,90.076904,0.0,19900.0,296.53472900390625,1600.0,7.936775,74,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(152)"
-157,2022-06-09 21:50:19,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,204.4720458984375,3600.0,25.889034,29,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(114)"
-158,2022-06-09 21:55:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.76953,0.0,109900.0,63.0780029296875,1800.0,5.685009,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(15)"
-159,2022-06-09 21:55:52,ppi,ppi,hou-ppi-tracer,0.5328369,359.58527,0.38452148,3.1311035,0.0,109900.0,265.56427001953125,3000.0,-6.236519,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-160,2022-06-09 21:57:51,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,81.5789794921875,700.0,0.51833344,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(30)"
-161,2022-06-09 22:00:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,8.397701,33,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(123)"
-162,2022-06-09 22:05:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,800.0,-2.1366596,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(5)"
-163,2022-06-09 22:06:00,ppi,ppi,hou-ppi-tracer,0.5218506,359.5633,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-164,2022-06-09 22:07:59,vpt,vpt,hou-vpt-tracer,0.58776855,359.5523,89.69238,90.076904,0.0,19900.0,327.50518798828125,1700.0,-3.656273,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(14)"
-165,2022-06-09 22:10:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,144.503173828125,2300.0,9.43778,32,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(118)"
-166,2022-06-09 22:14:58,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0780029296875,1800.0,0.76333237,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(14)"
-167,2022-06-09 22:15:50,ppi,ppi,hou-ppi-tracer,0.5328369,359.54132,0.38452148,3.1311035,0.0,109900.0,353.55377197265625,3500.0,8.824614,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(2)"
-168,2022-06-09 22:17:48,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.70337,90.076904,0.0,19900.0,54.5196533203125,1600.0,10.70459,43,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(158)"
-169,2022-06-09 22:20:26,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,114.4940185546875,1600.0,13.538765,17,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(144)"
-170,2022-06-09 22:25:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0999755859375,1100.0,9.821278,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(25)"
-171,2022-06-09 22:26:00,ppi,ppi,hou-ppi-tracer,0.54107666,359.56055,0.38452148,3.1201172,0.0,109900.0,58.5736083984375,2600.0,19.448475,3,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(5)"
-172,2022-06-09 22:27:58,vpt,vpt,hou-vpt-tracer,0.58776855,359.5523,89.70337,90.076904,0.0,19900.0,341.55670166015625,1500.0,17.39827,100,66,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(117)"
-173,2022-06-09 22:30:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,144.4866943359375,1500.0,14.7352085,37,2,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(175)"
-174,2022-06-09 22:34:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0999755859375,800.0,1.1450577,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(20)"
-175,2022-06-09 22:35:51,ppi,ppi,hou-ppi-tracer,0.54382324,359.57428,0.38452148,3.1311035,0.0,109900.0,253.5589599609375,1900.0,-6.458743,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-176,2022-06-09 22:37:50,vpt,vpt,hou-vpt-tracer,0.5767822,359.54132,89.69238,90.076904,0.0,19900.0,260.57647705078125,4200.0,2.730919,25,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(86)"
-177,2022-06-09 22:40:25,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,144.4866943359375,1700.0,18.76963,44,3,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(145)"
-178,2022-06-09 22:45:09,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.78052,0.0,109900.0,63.1219482421875,3100.0,-5.9944916,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(11)"
-179,2022-06-09 22:46:01,ppi,ppi,hou-ppi-tracer,0.5218506,359.54132,0.38452148,3.1750488,0.0,109900.0,348.54400634765625,3600.0,7.4370556,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(2)"
-180,2022-06-09 22:47:59,vpt,vpt,hou-vpt-tracer,0.54107666,359.5166,89.69238,90.076904,0.0,19900.0,233.5748291015625,4200.0,-2.0549202,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(132)"
-181,2022-06-09 22:50:15,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,8.156694,35,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(154)"
-182,2022-06-09 22:54:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0999755859375,3600.0,0.20048141,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(28)"
-183,2022-06-09 22:55:51,ppi,ppi,hou-ppi-tracer,0.5657959,359.58527,0.38452148,3.1530762,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-184,2022-06-09 22:57:50,vpt,vpt,hou-vpt-tracer,0.5328369,359.5523,89.6814,90.076904,0.0,19900.0,301.58843994140625,2800.0,5.6099167,46,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(228)"
-185,2022-06-09 23:00:25,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,114.5159912109375,600.0,10.31382,37,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(164)"
-186,2022-06-09 23:05:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,4200.0,1.0230522,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(41)"
-187,2022-06-09 23:06:00,ppi,ppi,hou-ppi-tracer,0.54382324,359.5633,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-188,2022-06-09 23:07:58,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.70337,90.076904,0.0,19900.0,308.58673095703125,3400.0,7.4080887,38,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(187)"
-189,2022-06-09 23:10:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.60388,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,8.67214,43,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(199)"
-190,2022-06-09 23:14:58,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7910156,178.78052,0.0,109900.0,63.0999755859375,3200.0,0.35007858,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(33)"
-191,2022-06-09 23:15:50,ppi,ppi,hou-ppi-tracer,0.51086426,359.53857,0.38452148,3.1091309,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-192,2022-06-09 23:17:49,vpt,vpt,hou-vpt-tracer,0.5218506,359.5523,89.70337,90.076904,0.0,19900.0,144.5635986328125,900.0,9.858372,111,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(349)"
-193,2022-06-09 23:20:25,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,7.336708,40,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(205)"
-194,2022-06-09 23:25:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7800293,178.76953,0.0,109900.0,63.0999755859375,800.0,1.1860924,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(22)"
-195,2022-06-09 23:26:00,ppi,ppi,hou-ppi-tracer,0.5657959,359.58527,0.38452148,3.1091309,0.0,109900.0,,,,0,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)"
-196,2022-06-09 23:27:58,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,154.5721435546875,4200.0,6.443718,153,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(523)"
-197,2022-06-09 23:30:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,7.894932,58,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(280)"
-198,2022-06-09 23:34:57,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,341.55945,0.7800293,178.76953,0.0,109900.0,63.1219482421875,3400.0,0.44346237,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(31)"
-199,2022-06-09 23:35:49,ppi,ppi,hou-ppi-tracer,0.5548096,359.58527,0.38452148,3.1420898,0.0,109900.0,281.52740478515625,21200.0,24.34237,1,1,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(3)"
-200,2022-06-09 23:37:47,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.70337,90.076904,0.0,19900.0,267.59674072265625,2600.0,5.2916603,70,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(375)"
-201,2022-06-09 23:40:27,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,144.4866943359375,4300.0,8.068459,49,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(291)"
-202,2022-06-09 23:45:09,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.7915,0.0,109900.0,63.1219482421875,1200.0,1.5262985,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(25)"
-203,2022-06-09 23:46:01,ppi,ppi,hou-ppi-tracer,0.552063,359.58527,0.38452148,3.1970215,0.0,109900.0,358.56353759765625,7500.0,8.30863,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(1)"
-204,2022-06-09 23:47:59,vpt,vpt,hou-vpt-tracer,0.5218506,359.5523,89.70337,90.076904,0.0,19900.0,204.5269775390625,600.0,20.491882,36,16,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(442)"
-205,2022-06-09 23:50:15,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,144.4866943359375,4200.0,8.518393,61,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(264)"
-206,2022-06-09 23:54:57,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.7915,0.0,109900.0,63.0999755859375,1200.0,1.2069054,1,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(16)"
-207,2022-06-09 23:55:49,ppi,ppi,hou-ppi-tracer,0.519104,359.54956,0.38452148,3.1311035,0.0,109900.0,358.54156494140625,7500.0,8.056225,2,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(3)"
-208,2022-06-09 23:57:47,vpt,vpt,hou-vpt-tracer,0.5657959,359.54132,89.6814,90.076904,0.0,19900.0,155.5499267578125,4700.0,4.337391,69,0,0,0,"<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(0)","<xarray.DataArray 'reflectivity' ()>
-array(195)"
+0,2022-06-09 15:10:19,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.55994,0.7800293,183.01025,0.0,109900.0,114.4940185546875,1500.0,13.907858,20,2,0,0,0,0,310
+1,2022-06-09 15:15:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,63.12195,0.7800293,178.75854,0.0,109900.0,63.0999755859375,5200.0,-3.7662773,0,0,0,0,0,0,8
+2,2022-06-09 15:15:54,ppi,ppi,hou-ppi-tracer,0.51086426,359.57428,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,0,0,0
+3,2022-06-09 15:17:53,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.70337,90.09888,0.0,19900.0,320.55084228515625,4500.0,7.6975136,1,0,0,0,0,0,40
+4,2022-06-09 15:20:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.53796,0.7800293,183.02124,0.0,109900.0,204.4720458984375,900.0,27.910114,19,4,0,0,0,0,189
+5,2022-06-09 15:25:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,63.12195,0.7800293,178.7915,0.0,109900.0,63.1219482421875,800.0,0.0038280487,1,0,0,0,0,0,25
+6,2022-06-09 15:25:55,ppi,ppi,hou-ppi-tracer,0.5548096,359.57428,0.36254883,3.1311035,0.0,109900.0,,,,0,0,0,0,0,0,0
+7,2022-06-09 15:27:54,vpt,vpt,hou-vpt-tracer,0.54107666,359.5166,89.69238,90.08789,0.0,19900.0,32.5140380859375,4500.0,2.5862389,22,0,0,0,0,0,63
+8,2022-06-09 15:30:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.64783,0.7800293,183.02124,0.0,109900.0,84.4793701171875,800.0,5.189806,18,0,0,0,0,0,259
+9,2022-06-09 15:35:01,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,110.286255,0.7910156,178.7915,0.0,109900.0,63.0999755859375,1200.0,-1.5795116,0,0,0,0,0,0,39
+10,2022-06-09 15:35:53,ppi,ppi,hou-ppi-tracer,0.5218506,359.57428,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,0,0,0
+11,2022-06-09 15:37:52,vpt,vpt,hou-vpt-tracer,0.58776855,359.5633,89.72534,90.076904,0.0,19900.0,335.58013916015625,1300.0,6.1157303,41,0,0,0,0,0,166
+12,2022-06-09 15:40:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.64783,0.7800293,183.01025,0.0,109900.0,144.4866943359375,36200.0,12.840729,30,3,0,0,0,0,351
+13,2022-06-09 15:45:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,1800.0,6.6926804,2,0,0,0,0,0,76
+14,2022-06-09 15:45:55,ppi,ppi,hou-ppi-tracer,0.5548096,359.58527,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,0,0,0
+15,2022-06-09 15:47:54,vpt,vpt,hou-vpt-tracer,0.5657959,359.54132,89.69238,90.076904,0.0,19900.0,95.5755615234375,1500.0,8.301674,25,0,0,0,0,0,81
+16,2022-06-09 15:50:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,204.4720458984375,700.0,21.873276,42,3,0,0,0,0,578
+17,2022-06-09 15:55:04,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7800293,178.78052,0.0,109900.0,63.0999755859375,3100.0,2.2783337,6,0,0,0,0,0,115
+18,2022-06-09 15:55:56,ppi,ppi,hou-ppi-tracer,0.519104,359.56055,0.37353516,3.1420898,0.0,109900.0,,,,0,0,0,0,0,0,0
+19,2022-06-09 15:57:54,vpt,vpt,hou-vpt-tracer,0.5328369,359.5523,89.747314,90.076904,0.0,19900.0,97.5750732421875,1600.0,4.004505,82,0,0,0,0,0,446
+20,2022-06-09 16:00:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,183.01025,0.0,109900.0,54.4866943359375,600.0,15.159508,26,3,0,0,0,0,481
+21,2022-06-09 16:05:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,4600.0,-0.96076584,0,0,0,0,0,0,19
+22,2022-06-09 16:05:52,ppi,ppi,hou-ppi-tracer,0.54107666,359.54132,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,0,0,0
+23,2022-06-09 16:07:51,vpt,vpt,hou-vpt-tracer,0.54382324,359.5523,89.67041,90.076904,0.0,19900.0,150.5511474609375,800.0,12.267391,36,5,0,0,0,0,103
+24,2022-06-09 16:10:23,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,114.5159912109375,52600.0,35.72793,49,20,2,0,0,0,461
+25,2022-06-09 16:15:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,4400.0,1.1888676,1,0,0,0,0,0,24
+26,2022-06-09 16:15:58,ppi,ppi,hou-ppi-tracer,0.519104,359.54132,0.38452148,3.1750488,0.0,109900.0,116.5484619140625,53500.0,30.69059,5,5,1,0,0,0,5
+27,2022-06-09 16:17:56,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.67041,90.076904,0.0,19900.0,243.5394287109375,1900.0,4.4788723,80,0,0,0,0,0,605
+28,2022-06-09 16:20:18,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,114.5159912109375,54000.0,20.370264,152,8,0,0,0,0,1468
+29,2022-06-09 16:25:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.75854,0.0,109900.0,63.0999755859375,1600.0,3.1840744,9,0,0,0,0,0,318
+30,2022-06-09 16:25:52,ppi,ppi,hou-ppi-tracer,0.519104,359.57428,0.38452148,3.1750488,0.0,109900.0,359.55230712890625,7500.0,3.6179924,1,0,0,0,0,0,1
+31,2022-06-09 16:27:51,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,18.5504150390625,4400.0,3.8280373,21,0,0,0,0,0,265
+32,2022-06-09 16:30:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,84.5013427734375,1000.0,17.604565,27,2,0,0,0,0,426
+33,2022-06-09 16:34:48,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0780029296875,4100.0,0.74505043,3,0,0,0,0,0,49
+34,2022-06-09 16:35:40,ppi,ppi,hou-ppi-tracer,0.5218506,359.58527,0.38452148,3.1860352,0.0,109900.0,,,,0,0,0,0,0,0,0
+35,2022-06-09 16:37:38,vpt,vpt,hou-vpt-tracer,0.5328369,359.5523,89.70337,90.076904,0.0,19900.0,359.55230712890625,1200.0,3.7128181,13,0,0,0,0,0,135
+36,2022-06-09 16:40:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,54.4866943359375,900.0,37.42094,23,5,1,0,0,0,359
+37,2022-06-09 16:45:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.067017,63.12195,0.7910156,178.7915,0.0,109900.0,63.0780029296875,5000.0,0.94916534,3,0,0,0,0,0,46
+38,2022-06-09 16:45:54,ppi,ppi,hou-ppi-tracer,0.54107666,359.5633,0.38452148,3.0651855,0.0,109900.0,,,,0,0,0,0,0,0,0
+39,2022-06-09 16:47:53,vpt,vpt,hou-vpt-tracer,0.5218506,359.5523,89.714355,90.076904,0.0,19900.0,123.5247802734375,4500.0,2.478592,43,0,0,0,0,0,703
+40,2022-06-09 16:50:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,114.5159912109375,36800.0,21.474342,15,5,0,0,0,0,323
+41,2022-06-09 16:55:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.78052,0.0,109900.0,63.0999755859375,3500.0,-5.762271,0,0,0,0,0,0,12
+42,2022-06-09 16:55:54,ppi,ppi,hou-ppi-tracer,0.5218506,359.58527,0.38452148,3.1750488,0.0,109900.0,116.5704345703125,36800.0,29.293573,23,19,0,0,0,0,23
+43,2022-06-09 16:57:53,vpt,vpt,hou-vpt-tracer,0.5548096,359.57428,89.69238,90.076904,0.0,19900.0,190.5413818359375,4600.0,0.09547043,4,0,0,0,0,0,362
+44,2022-06-09 17:00:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.58191,0.7910156,182.99927,0.0,109900.0,114.4940185546875,37200.0,35.084724,108,66,8,0,0,0,337
+45,2022-06-09 17:05:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,900.0,-14.331252,0,0,0,0,0,0,2
+46,2022-06-09 17:05:54,ppi,ppi,hou-ppi-tracer,0.519104,359.57428,0.38452148,3.1311035,0.0,109900.0,117.5701904296875,37400.0,36.90255,40,37,13,0,0,0,40
+47,2022-06-09 17:07:53,vpt,vpt,hou-vpt-tracer,0.5767822,359.54132,89.69238,90.076904,0.0,19900.0,74.5257568359375,1900.0,22.879765,52,19,0,0,0,0,99
+48,2022-06-09 17:10:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,114.5159912109375,39000.0,25.179771,42,31,0,0,0,0,184
+49,2022-06-09 17:15:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.78052,0.0,109900.0,63.0999755859375,2100.0,-2.2624588,0,0,0,0,0,0,33
+50,2022-06-09 17:15:55,ppi,ppi,hou-ppi-tracer,0.5218506,359.58527,0.38452148,3.1750488,0.0,109900.0,119.5587158203125,37400.0,21.238815,4,2,0,0,0,0,4
+51,2022-06-09 17:17:54,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,334.54742431640625,1800.0,6.0251846,42,0,0,0,0,0,253
+52,2022-06-09 17:20:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,114.4940185546875,38900.0,28.205158,90,26,0,0,0,0,808
+53,2022-06-09 17:24:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.76953,0.0,109900.0,63.1219482421875,3200.0,9.166283,12,0,0,0,0,0,170
+54,2022-06-09 17:25:51,ppi,ppi,hou-ppi-tracer,0.54107666,359.53857,0.38452148,3.1091309,0.0,109900.0,116.5264892578125,38200.0,14.982843,6,2,0,0,0,0,6
+55,2022-06-09 17:27:50,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.69238,90.076904,0.0,19900.0,355.54229736328125,1400.0,11.910946,144,36,0,0,0,0,420
+56,2022-06-09 17:30:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,54.4866943359375,900.0,23.518745,26,13,0,0,0,0,262
+57,2022-06-09 17:35:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,4700.0,1.9372597,2,0,0,0,0,0,9
+58,2022-06-09 17:35:57,ppi,ppi,hou-ppi-tracer,0.5218506,359.54132,0.37353516,3.1091309,0.0,109900.0,,,,0,0,0,0,0,0,0
+59,2022-06-09 17:37:56,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.70337,90.076904,0.0,19900.0,299.54498291015625,4400.0,2.6839676,8,0,0,0,0,0,181
+60,2022-06-09 17:40:19,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.60388,0.7800293,183.02124,0.0,109900.0,54.5086669921875,800.0,28.135853,35,5,0,0,0,0,625
+61,2022-06-09 17:45:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,900.0,27.458378,39,2,0,0,0,0,145
+62,2022-06-09 17:45:52,ppi,ppi,hou-ppi-tracer,0.51086426,359.53033,0.38452148,3.1420898,0.0,109900.0,,,,0,0,0,0,0,0,0
+63,2022-06-09 17:47:50,vpt,vpt,hou-vpt-tracer,0.58776855,359.5523,89.76929,90.076904,0.0,19900.0,58.5516357421875,1500.0,-0.24036407,0,0,0,0,0,0,110
+64,2022-06-09 17:50:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,54.5086669921875,900.0,15.411457,18,2,0,0,0,0,333
+65,2022-06-09 17:55:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0780029296875,1500.0,3.4131489,1,0,0,0,0,0,32
+66,2022-06-09 17:55:57,ppi,ppi,hou-ppi-tracer,0.54382324,359.58527,0.38452148,3.1970215,0.0,109900.0,,,,0,0,0,0,0,0,0
+67,2022-06-09 17:57:56,vpt,vpt,hou-vpt-tracer,0.5328369,359.50836,89.69238,90.076904,0.0,19900.0,268.53057861328125,600.0,24.862946,33,24,0,0,0,0,284
+68,2022-06-09 18:00:18,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,84.5013427734375,1400.0,9.42366,85,0,0,0,0,0,636
+69,2022-06-09 18:05:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.78052,0.0,109900.0,63.0999755859375,4300.0,6.9445076,6,0,0,0,0,0,49
+70,2022-06-09 18:05:54,ppi,ppi,hou-ppi-tracer,0.552063,359.53033,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,0,0,0
+71,2022-06-09 18:07:52,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.78027,90.076904,0.0,19900.0,36.5130615234375,600.0,19.359098,73,33,0,0,0,0,230
+72,2022-06-09 18:10:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.61487,0.7800293,182.99927,0.0,109900.0,174.495849609375,3200.0,18.889187,32,3,0,0,0,0,648
+73,2022-06-09 18:15:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7800293,178.76953,0.0,109900.0,63.0999755859375,1300.0,12.3677025,2,1,0,0,0,0,46
+74,2022-06-09 18:15:55,ppi,ppi,hou-ppi-tracer,0.519104,359.5523,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,0,0,0
+75,2022-06-09 18:18:07,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.98901,90.01099,0.0,19900.0,328.55987548828125,800.0,8.708633,45,0,0,0,0,0,124
+76,2022-06-09 18:20:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.475708,204.5929,0.7800293,182.99927,0.0,109900.0,174.495849609375,1100.0,15.311998,55,6,0,0,0,0,434
+77,2022-06-09 18:25:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,3100.0,3.0968456,5,0,0,0,0,0,170
+78,2022-06-09 18:25:54,ppi,ppi,hou-ppi-tracer,0.54382324,359.5633,0.38452148,3.1311035,0.0,109900.0,134.5660400390625,1600.0,-2.9849272,0,0,0,0,0,0,1
+79,2022-06-09 18:27:53,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,130.5999755859375,4300.0,-0.28634262,0,0,0,0,0,0,100
+80,2022-06-09 18:30:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,54.4866943359375,1300.0,18.279753,93,3,0,0,0,0,720
+81,2022-06-09 18:35:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.76904297,178.78052,0.0,109900.0,63.0780029296875,4900.0,2.2468796,6,0,0,0,0,0,181
+82,2022-06-09 18:35:55,ppi,ppi,hou-ppi-tracer,0.5218506,359.54132,0.38452148,3.1311035,0.0,109900.0,126.6009521484375,27600.0,16.859617,6,4,0,0,0,0,6
+83,2022-06-09 18:37:53,vpt,vpt,hou-vpt-tracer,0.54107666,359.5166,89.70337,90.076904,0.0,19900.0,176.5447998046875,800.0,19.553192,71,49,0,0,0,0,298
+84,2022-06-09 18:40:21,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.475708,204.61487,0.7800293,182.99927,0.0,109900.0,114.4940185546875,700.0,25.76625,104,8,0,0,0,0,880
+85,2022-06-09 18:44:48,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0780029296875,9200.0,13.327522,10,1,0,0,0,0,74
+86,2022-06-09 18:45:41,ppi,ppi,hou-ppi-tracer,0.552063,359.58527,0.38452148,3.1091309,0.0,109900.0,126.6009521484375,26600.0,31.527702,44,33,3,0,0,0,44
+87,2022-06-09 18:47:39,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.70337,90.076904,0.0,19900.0,317.54058837890625,800.0,-1.279644,0,0,0,0,0,0,71
+88,2022-06-09 18:50:23,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,114.5159912109375,35400.0,17.28644,96,14,0,0,0,0,1148
+89,2022-06-09 18:55:04,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.05603,63.12195,0.7800293,178.76953,0.0,109900.0,63.0999755859375,3500.0,4.120428,20,0,0,0,0,0,131
+90,2022-06-09 18:55:56,ppi,ppi,hou-ppi-tracer,0.5218506,359.57428,0.38452148,3.1750488,0.0,109900.0,202.5274658203125,26200.0,23.97908,9,7,0,0,0,0,9
+91,2022-06-09 18:57:54,vpt,vpt,hou-vpt-tracer,0.5328369,359.50836,89.70337,90.076904,0.0,19900.0,287.56988525390625,600.0,8.641239,55,0,0,0,0,0,614
+92,2022-06-09 19:00:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,174.495849609375,2800.0,20.400349,47,8,0,0,0,0,1234
+93,2022-06-09 19:05:02,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,3100.0,4.5457363,21,0,0,0,0,0,371
+94,2022-06-09 19:05:54,ppi,ppi,hou-ppi-tracer,0.5218506,359.59625,0.38452148,3.1091309,0.0,109900.0,112.5384521484375,34700.0,25.67672,30,24,0,0,0,0,30
+95,2022-06-09 19:08:20,vpt,vpt,hou-vpt-tracer,0.5548096,359.57428,89.70337,90.076904,0.0,19900.0,140.5755615234375,2000.0,-1.8948975,0,0,0,0,0,0,147
+96,2022-06-09 19:10:22,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,84.611206,0.7800293,182.99927,0.0,109900.0,84.4793701171875,1000.0,14.467115,35,1,0,0,0,0,758
+97,2022-06-09 19:20:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,54.5086669921875,600.0,21.673893,29,7,0,0,0,0,518
+98,2022-06-09 19:25:03,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,800.0,20.59261,10,4,0,0,0,0,149
+99,2022-06-09 19:25:55,ppi,ppi,hou-ppi-tracer,0.54107666,359.5633,0.38452148,3.1091309,0.0,109900.0,344.59991455078125,900.0,2.109106,1,0,0,0,0,0,1
+100,2022-06-09 19:27:54,vpt,vpt,hou-vpt-tracer,0.5548096,359.57428,89.70337,90.076904,0.0,19900.0,12.5189208984375,4400.0,-1.2802315,0,0,0,0,0,0,145
+101,2022-06-09 19:30:20,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,84.5013427734375,3400.0,12.879795,100,2,0,0,0,0,1435
+102,2022-06-09 19:35:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.75854,0.0,109900.0,63.0999755859375,800.0,22.872482,18,9,0,0,0,0,165
+103,2022-06-09 19:35:52,ppi,ppi,hou-ppi-tracer,0.519104,359.54132,0.38452148,3.1530762,0.0,109900.0,,,,0,0,0,0,0,0,0
+104,2022-06-09 19:37:51,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.69238,90.076904,0.0,19900.0,220.5999755859375,800.0,27.25275,110,22,0,0,0,0,297
+105,2022-06-09 19:40:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,54.5086669921875,600.0,20.86385,31,9,0,0,0,0,793
+106,2022-06-09 19:45:07,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.80200195,178.76953,0.0,109900.0,63.0999755859375,2100.0,15.625149,7,2,0,0,0,0,92
+107,2022-06-09 19:45:59,ppi,ppi,hou-ppi-tracer,0.54107666,359.58527,0.38452148,3.1420898,0.0,109900.0,,,,0,0,0,0,0,0,0
+108,2022-06-09 19:48:08,vpt,vpt,hou-vpt-tracer,0.5657959,359.54132,89.98901,90.01099,0.0,19900.0,170.5352783203125,600.0,25.270485,115,65,0,0,0,0,158
+109,2022-06-09 19:50:17,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,144.4866943359375,700.0,26.30158,18,5,0,0,0,0,318
+110,2022-06-09 19:54:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,1000.0,21.026615,6,3,0,0,0,0,59
+111,2022-06-09 19:55:51,ppi,ppi,hou-ppi-tracer,0.53009033,359.54956,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,0,0,0
+112,2022-06-09 19:57:49,vpt,vpt,hou-vpt-tracer,0.54107666,359.5166,89.70337,90.076904,0.0,19900.0,72.5701904296875,1300.0,-1.098629,0,0,0,0,0,0,72
+113,2022-06-09 20:00:26,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.5929,0.7800293,182.99927,0.0,109900.0,174.4793701171875,700.0,19.082077,48,5,0,0,0,0,841
+114,2022-06-09 20:05:07,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0780029296875,2100.0,10.230049,18,2,0,0,0,0,297
+115,2022-06-09 20:05:59,ppi,ppi,hou-ppi-tracer,0.54107666,359.5633,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,0,0,0
+116,2022-06-09 20:07:58,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.70337,90.076904,0.0,19900.0,31.5582275390625,2100.0,4.081295,84,0,0,0,0,0,565
+117,2022-06-09 20:10:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,54.5086669921875,2500.0,16.350876,89,7,0,0,0,0,1064
+118,2022-06-09 20:14:57,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.76953,0.0,109900.0,63.0999755859375,1500.0,19.170414,11,6,0,0,0,0,74
+119,2022-06-09 20:15:49,ppi,ppi,hou-ppi-tracer,0.5328369,359.58527,0.38452148,3.1091309,0.0,109900.0,321.56158447265625,2400.0,1.9822779,1,0,0,0,0,0,1
+120,2022-06-09 20:17:47,vpt,vpt,hou-vpt-tracer,0.552063,359.5166,89.69238,90.076904,0.0,19900.0,183.5760498046875,900.0,14.5804825,51,19,0,0,0,0,163
+121,2022-06-09 20:20:27,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,174.4793701171875,900.0,24.74123,85,13,0,0,0,0,693
+122,2022-06-09 20:25:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0999755859375,1000.0,14.7610855,19,4,0,0,1,0,152
+123,2022-06-09 20:26:00,ppi,ppi,hou-ppi-tracer,0.54107666,359.58527,0.38452148,3.1970215,0.0,109900.0,216.5350341796875,1800.0,2.1234446,1,0,0,0,0,0,1
+124,2022-06-09 20:27:59,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.69238,90.076904,0.0,19900.0,242.5396728515625,1200.0,16.184097,125,69,0,0,0,0,841
+125,2022-06-09 20:30:15,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,174.495849609375,1000.0,26.347233,286,67,0,0,0,0,1679
+126,2022-06-09 20:34:57,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.78052,0.0,109900.0,63.0999755859375,2700.0,8.577431,29,0,0,0,0,0,273
+127,2022-06-09 20:35:49,ppi,ppi,hou-ppi-tracer,0.5218506,359.5523,0.38452148,3.0871582,0.0,109900.0,200.5609130859375,1400.0,1.96385,1,0,0,0,0,0,1
+128,2022-06-09 20:37:47,vpt,vpt,hou-vpt-tracer,0.5767822,359.5523,89.70337,90.076904,0.0,19900.0,104.5294189453125,1100.0,25.557247,76,42,0,0,0,0,268
+129,2022-06-09 20:40:27,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.60388,0.7800293,182.99927,0.0,109900.0,204.4720458984375,4600.0,26.417818,197,18,0,0,0,0,2040
+130,2022-06-09 20:45:07,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.75854,0.0,109900.0,63.0780029296875,2700.0,4.470381,60,0,0,0,0,0,462
+131,2022-06-09 20:45:59,ppi,ppi,hou-ppi-tracer,0.54107666,359.5633,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,0,0,0
+132,2022-06-09 20:47:58,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.70337,90.076904,0.0,19900.0,177.5885009765625,1500.0,5.4333057,72,0,0,0,0,0,332
+133,2022-06-09 20:50:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,183.01025,0.0,109900.0,84.4793701171875,1700.0,22.529448,81,5,0,0,0,0,781
+134,2022-06-09 20:55:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7800293,178.80249,0.0,109900.0,63.0780029296875,2400.0,5.427202,1,0,0,0,0,0,127
+135,2022-06-09 20:55:52,ppi,ppi,hou-ppi-tracer,0.5218506,359.5523,0.38452148,3.1530762,0.0,109900.0,135.5438232421875,2200.0,-10.407041,0,0,0,0,0,0,1
+136,2022-06-09 20:57:50,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.70337,90.076904,0.0,19900.0,69.5709228515625,4400.0,3.9784603,26,0,0,0,0,0,139
+137,2022-06-09 21:00:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.52698,0.7800293,182.99927,0.0,109900.0,174.495849609375,700.0,22.529888,55,2,0,0,0,0,356
+138,2022-06-09 21:05:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.76953,0.0,109900.0,63.0999755859375,1200.0,0.68083763,2,0,0,0,0,0,106
+139,2022-06-09 21:05:57,ppi,ppi,hou-ppi-tracer,0.5328369,359.5523,0.38452148,3.1311035,0.0,109900.0,291.56890869140625,2300.0,17.18917,1,1,0,0,0,0,3
+140,2022-06-09 21:07:56,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.64844,90.076904,0.0,19900.0,305.56549072265625,2900.0,2.1299477,21,0,0,0,0,0,189
+141,2022-06-09 21:10:19,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,174.4793701171875,1300.0,11.326775,27,1,0,0,0,0,145
+142,2022-06-09 21:14:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.7915,0.0,109900.0,63.0780029296875,900.0,14.909134,2,1,0,0,0,0,43
+143,2022-06-09 21:15:51,ppi,ppi,hou-ppi-tracer,0.5328369,359.58527,0.38452148,3.1091309,0.0,109900.0,351.58721923828125,2300.0,1.4025497,1,0,0,0,0,0,2
+144,2022-06-09 21:17:50,vpt,vpt,hou-vpt-tracer,0.5328369,359.50836,89.70337,90.076904,0.0,19900.0,174.5452880859375,1600.0,5.5937843,52,0,0,0,0,0,178
+145,2022-06-09 21:20:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,84.5013427734375,1100.0,9.299356,19,0,0,0,0,0,134
+146,2022-06-09 21:25:06,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0999755859375,4400.0,13.978928,1,1,0,0,0,0,8
+147,2022-06-09 21:25:58,ppi,ppi,hou-ppi-tracer,0.54107666,359.58527,0.38452148,3.1530762,0.0,109900.0,255.5914306640625,2100.0,-4.8922048,0,0,0,0,0,0,1
+148,2022-06-09 21:27:56,vpt,vpt,hou-vpt-tracer,0.5657959,359.54132,89.6814,90.076904,0.0,19900.0,307.51007080078125,1500.0,-4.1657867,0,0,0,0,0,0,17
+149,2022-06-09 21:30:18,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.62585,0.7800293,182.99927,0.0,109900.0,84.4793701171875,1700.0,16.467297,23,4,0,0,0,0,117
+150,2022-06-09 21:35:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.7915,0.0,109900.0,63.0999755859375,2300.0,-3.0502605,0,0,0,0,0,0,8
+151,2022-06-09 21:35:52,ppi,ppi,hou-ppi-tracer,0.5548096,359.58527,0.38452148,3.1311035,0.0,109900.0,281.53839111328125,21200.0,24.758507,3,3,0,0,0,0,3
+152,2022-06-09 21:37:51,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.69238,90.076904,0.0,19900.0,244.5501708984375,1400.0,0.4409256,11,0,0,0,0,0,50
+153,2022-06-09 21:40:23,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7910156,182.99927,0.0,109900.0,54.5086669921875,1700.0,15.716421,27,3,0,0,0,0,102
+154,2022-06-09 21:45:05,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.78052,0.0,109900.0,63.1219482421875,1200.0,1.0929623,2,0,0,0,0,0,16
+155,2022-06-09 21:45:57,ppi,ppi,hou-ppi-tracer,0.5218506,359.58527,0.38452148,3.1311035,0.0,109900.0,218.6004638671875,2200.0,-6.6526523,0,0,0,0,0,0,1
+156,2022-06-09 21:47:55,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.6814,90.076904,0.0,19900.0,296.53472900390625,1600.0,7.936775,74,0,0,0,0,0,152
+157,2022-06-09 21:50:19,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,204.4720458984375,3600.0,25.889034,29,2,0,0,0,0,114
+158,2022-06-09 21:55:00,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.76953,0.0,109900.0,63.0780029296875,1800.0,5.685009,2,0,0,0,0,0,15
+159,2022-06-09 21:55:52,ppi,ppi,hou-ppi-tracer,0.5328369,359.58527,0.38452148,3.1311035,0.0,109900.0,265.56427001953125,3000.0,-6.236519,0,0,0,0,0,0,1
+160,2022-06-09 21:57:51,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,81.5789794921875,700.0,0.51833344,2,0,0,0,0,0,30
+161,2022-06-09 22:00:24,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,8.397701,33,0,0,0,0,0,123
+162,2022-06-09 22:05:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.1219482421875,800.0,-2.1366596,0,0,0,0,0,0,5
+163,2022-06-09 22:06:00,ppi,ppi,hou-ppi-tracer,0.5218506,359.5633,0.38452148,3.1311035,0.0,109900.0,,,,0,0,0,0,0,0,0
+164,2022-06-09 22:07:59,vpt,vpt,hou-vpt-tracer,0.58776855,359.5523,89.69238,90.076904,0.0,19900.0,327.50518798828125,1700.0,-3.656273,0,0,0,0,0,0,14
+165,2022-06-09 22:10:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,144.503173828125,2300.0,9.43778,32,0,0,0,0,0,118
+166,2022-06-09 22:14:58,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0780029296875,1800.0,0.76333237,1,0,0,0,0,0,14
+167,2022-06-09 22:15:50,ppi,ppi,hou-ppi-tracer,0.5328369,359.54132,0.38452148,3.1311035,0.0,109900.0,353.55377197265625,3500.0,8.824614,1,0,0,0,0,0,2
+168,2022-06-09 22:17:48,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.70337,90.076904,0.0,19900.0,54.5196533203125,1600.0,10.70459,43,1,0,0,0,0,158
+169,2022-06-09 22:20:26,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,114.4940185546875,1600.0,13.538765,17,1,0,0,0,0,144
+170,2022-06-09 22:25:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.76953,0.0,109900.0,63.0999755859375,1100.0,9.821278,2,0,0,0,0,0,25
+171,2022-06-09 22:26:00,ppi,ppi,hou-ppi-tracer,0.54107666,359.56055,0.38452148,3.1201172,0.0,109900.0,58.5736083984375,2600.0,19.448475,3,2,0,0,0,0,5
+172,2022-06-09 22:27:58,vpt,vpt,hou-vpt-tracer,0.58776855,359.5523,89.70337,90.076904,0.0,19900.0,341.55670166015625,1500.0,17.39827,100,66,0,0,0,0,117
+173,2022-06-09 22:30:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,144.4866943359375,1500.0,14.7352085,37,2,0,0,0,0,175
+174,2022-06-09 22:34:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0999755859375,800.0,1.1450577,1,0,0,0,0,0,20
+175,2022-06-09 22:35:51,ppi,ppi,hou-ppi-tracer,0.54382324,359.57428,0.38452148,3.1311035,0.0,109900.0,253.5589599609375,1900.0,-6.458743,0,0,0,0,0,0,1
+176,2022-06-09 22:37:50,vpt,vpt,hou-vpt-tracer,0.5767822,359.54132,89.69238,90.076904,0.0,19900.0,260.57647705078125,4200.0,2.730919,25,0,0,0,0,0,86
+177,2022-06-09 22:40:25,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,144.4866943359375,1700.0,18.76963,44,3,0,0,0,0,145
+178,2022-06-09 22:45:09,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7910156,178.78052,0.0,109900.0,63.1219482421875,3100.0,-5.9944916,0,0,0,0,0,0,11
+179,2022-06-09 22:46:01,ppi,ppi,hou-ppi-tracer,0.5218506,359.54132,0.38452148,3.1750488,0.0,109900.0,348.54400634765625,3600.0,7.4370556,2,0,0,0,0,0,2
+180,2022-06-09 22:47:59,vpt,vpt,hou-vpt-tracer,0.54107666,359.5166,89.69238,90.076904,0.0,19900.0,233.5748291015625,4200.0,-2.0549202,0,0,0,0,0,0,132
+181,2022-06-09 22:50:15,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.51599,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,8.156694,35,0,0,0,0,0,154
+182,2022-06-09 22:54:59,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.0999755859375,3600.0,0.20048141,1,0,0,0,0,0,28
+183,2022-06-09 22:55:51,ppi,ppi,hou-ppi-tracer,0.5657959,359.58527,0.38452148,3.1530762,0.0,109900.0,,,,0,0,0,0,0,0,0
+184,2022-06-09 22:57:50,vpt,vpt,hou-vpt-tracer,0.5328369,359.5523,89.6814,90.076904,0.0,19900.0,301.58843994140625,2800.0,5.6099167,46,0,0,0,0,0,228
+185,2022-06-09 23:00:25,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.51599,0.7800293,182.99927,0.0,109900.0,114.5159912109375,600.0,10.31382,37,1,0,0,0,0,164
+186,2022-06-09 23:05:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.78052,0.0,109900.0,63.1219482421875,4200.0,1.0230522,1,0,0,0,0,0,41
+187,2022-06-09 23:06:00,ppi,ppi,hou-ppi-tracer,0.54382324,359.5633,0.38452148,3.1750488,0.0,109900.0,,,,0,0,0,0,0,0,0
+188,2022-06-09 23:07:58,vpt,vpt,hou-vpt-tracer,0.5548096,359.58527,89.70337,90.076904,0.0,19900.0,308.58673095703125,3400.0,7.4080887,38,0,0,0,0,0,187
+189,2022-06-09 23:10:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.60388,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,8.67214,43,0,0,0,0,0,199
+190,2022-06-09 23:14:58,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7910156,178.78052,0.0,109900.0,63.0999755859375,3200.0,0.35007858,1,0,0,0,0,0,33
+191,2022-06-09 23:15:50,ppi,ppi,hou-ppi-tracer,0.51086426,359.53857,0.38452148,3.1091309,0.0,109900.0,,,,0,0,0,0,0,0,0
+192,2022-06-09 23:17:49,vpt,vpt,hou-vpt-tracer,0.5218506,359.5523,89.70337,90.076904,0.0,19900.0,144.5635986328125,900.0,9.858372,111,0,0,0,0,0,349
+193,2022-06-09 23:20:25,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,7.336708,40,0,0,0,0,0,205
+194,2022-06-09 23:25:08,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.099976,0.7800293,178.76953,0.0,109900.0,63.0999755859375,800.0,1.1860924,2,0,0,0,0,0,22
+195,2022-06-09 23:26:00,ppi,ppi,hou-ppi-tracer,0.5657959,359.58527,0.38452148,3.1091309,0.0,109900.0,,,,0,0,0,0,0,0,0
+196,2022-06-09 23:27:58,vpt,vpt,hou-vpt-tracer,0.54382324,359.5633,89.69238,90.076904,0.0,19900.0,154.5721435546875,4200.0,6.443718,153,0,0,0,0,0,523
+197,2022-06-09 23:30:16,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,114.4940185546875,800.0,7.894932,58,0,0,0,0,0,280
+198,2022-06-09 23:34:57,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,341.55945,0.7800293,178.76953,0.0,109900.0,63.1219482421875,3400.0,0.44346237,2,0,0,0,0,0,31
+199,2022-06-09 23:35:49,ppi,ppi,hou-ppi-tracer,0.5548096,359.58527,0.38452148,3.1420898,0.0,109900.0,281.52740478515625,21200.0,24.34237,1,1,0,0,0,0,3
+200,2022-06-09 23:37:47,vpt,vpt,hou-vpt-tracer,0.5657959,359.58527,89.70337,90.076904,0.0,19900.0,267.59674072265625,2600.0,5.2916603,70,0,0,0,0,0,375
+201,2022-06-09 23:40:27,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.486694,204.60388,0.7800293,182.99927,0.0,109900.0,144.4866943359375,4300.0,8.068459,49,0,0,0,0,0,291
+202,2022-06-09 23:45:09,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.80200195,178.7915,0.0,109900.0,63.1219482421875,1200.0,1.5262985,2,0,0,0,0,0,25
+203,2022-06-09 23:46:01,ppi,ppi,hou-ppi-tracer,0.552063,359.58527,0.38452148,3.1970215,0.0,109900.0,358.56353759765625,7500.0,8.30863,1,0,0,0,0,0,1
+204,2022-06-09 23:47:59,vpt,vpt,hou-vpt-tracer,0.5218506,359.5523,89.70337,90.076904,0.0,19900.0,204.5269775390625,600.0,20.491882,36,16,0,0,0,0,442
+205,2022-06-09 23:50:15,hsrhi,hsrhi,hou-hsrhi-tracer-vol,54.46472,204.61487,0.7800293,182.99927,0.0,109900.0,144.4866943359375,4200.0,8.518393,61,0,0,0,0,0,264
+206,2022-06-09 23:54:57,hsrhi,hsrhi,hou-hsrhi-tracer-anc,63.078003,63.12195,0.7800293,178.7915,0.0,109900.0,63.0999755859375,1200.0,1.2069054,1,0,0,0,0,0,16
+207,2022-06-09 23:55:49,ppi,ppi,hou-ppi-tracer,0.519104,359.54956,0.38452148,3.1311035,0.0,109900.0,358.54156494140625,7500.0,8.056225,2,0,0,0,0,0,3
+208,2022-06-09 23:57:47,vpt,vpt,hou-vpt-tracer,0.5657959,359.54132,89.6814,90.076904,0.0,19900.0,155.5499267578125,4700.0,4.337391,69,0,0,0,0,0,195

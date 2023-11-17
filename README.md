@@ -1,7 +1,7 @@
 # cell-track-stats
 The Atmospheric Radiation Measurement user facility (ARM) deployed one of the ARM Mobile Facilities (AMF1) to the Houston, TX region in support of the TRacking Aerosol Convection interactions ExpeRiment (TRACER).  As part of this campaign, the development and implementation of automated cell-tracking techniques were implemented with ARM's C-Band system (CSAPR2).  It will be important for ARM and the science communnity to understand the location of the cell(s) tracked.  This is a preliminary program to gather cell-location and a variety of other statistics noted below until the more formal metadata is made available by the cell-tracking team.
 
-This script is very simple in that after thresholding the data by the following, it looks for the location of the max reflectivity.  Images are generated for the cell-tracked files and located [here](https://dev.arm.gov/~theisen/cell_tracking/) for verification where the red x marks the location of the cell.
+This script is very simple in that after thresholding the data by the following, it looks for the location of the max reflectivity.  Images are generated for the cell-tracked files and located [here](https://plot.adc.arm.gov/userplots/theisen/cell_tracking/) for verification where the red x marks the location of the cell.
 
 - Smoothed Zdr (time=5) < 4.5 dB
 - Smoothed RhoHV (time=4) > 0.98
